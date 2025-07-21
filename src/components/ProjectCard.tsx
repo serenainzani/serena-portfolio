@@ -14,23 +14,37 @@ type ProjectProps = {
 
 export default function ProjectCard({ project }: ProjectProps) {
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card
+            sx={{
+                maxWidth: 345,
+                display: "flex",
+                flexDirection: "column",
+            }}
+        >
             <CardMedia
-                sx={{ height: 140 }}
-                image="/static/images/cards/contemplative-reptile.jpg"
-                title="green iguana"
+                sx={{ height: 238, backgroundPosition: "top" }}
+                image={project.logo}
+                title="app-logo"
             />
             <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography
+                    gutterBottom
+                    component="div"
+                    className="text-purple-800 text-3xl"
+                >
                     {project.name}
                 </Typography>
                 <Typography variant="body2" sx={{ color: "text.secondary" }}>
                     {project.description}
                 </Typography>
             </CardContent>
-            <CardActions>
+            <CardActions
+                sx={{ marginTop: "auto", justifyContent: "space-evenly" }}
+            >
                 <a href={project.appLink} target="_blank">
-                    <Button size="small">Check it out</Button>
+                    <Button size="small" className="text-purple-800 text-base">
+                        Check it out
+                    </Button>
                 </a>
                 <a href={project.repoLink} target="_blank">
                     <IconButton color="primary" aria-label="github">

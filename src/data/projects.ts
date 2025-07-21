@@ -3,24 +3,26 @@ export type Project = {
     description: string;
     repoLink: string;
     appLink?: string;
+    logo: string;
 };
 
 const projects: Project[] = [
     {
-        name: "Restaurant Recommender, powered by OpenAI",
+        name: "AI Restaurant Recommender",
         description:
-            "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+            "A full-stack application that uses OpenAI to recommend restaurants based on bespoke user prompts about their preferences and location.",
         repoLink:
             "https://github.com/serenainzani/restaurant-recommender-openai",
         appLink: "https://restaurant-recommender-openai.vercel.app",
+        logo: "/chef.jpeg",
     },
     {
-        name: "Restaurant Recommender, powered by OpenAI",
+        name: "RPG Notes App",
         description:
-            "as dsf ds fds f ds f ds f ds f ds f dsfdsfdsfds fdsfds f dsf  f ffdfssd f f",
-        repoLink:
-            "https://github.com/serenainzani/restaurant-recommender-openai",
-        appLink: "https://restaurant-recommender-openai.vercel.app",
+            "A full-stack application for tabletop RPG players to create and manage their session notes. Players can make, edit and delete notes, as well as filter based on note category",
+        repoLink: "https://github.com/serenainzani/rpg-notes-app",
+        appLink: "https://rpg-notes-app.vercel.app/",
+        logo: "/rpg.jpeg",
     },
 ];
 
