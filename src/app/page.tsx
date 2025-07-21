@@ -19,6 +19,7 @@ export default function Home() {
                         WebkitTextFillColor: "transparent",
                         fontWeight: "bold",
                     }}
+                    className="mt-36 mb-8"
                 >
                     {"<Serena Inzani />"}
                 </Typography>
