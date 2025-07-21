@@ -8,7 +8,6 @@ export default function Home() {
         <main>
             <section>
                 <Typography
-                    variant="h1"
                     textAlign="center"
                     sx={{
                         backgroundImage: `linear-gradient( to left, #ef32d9, #89fffd)`,
@@ -19,7 +18,7 @@ export default function Home() {
                         WebkitTextFillColor: "transparent",
                         fontWeight: "bold",
                     }}
-                    className="mt-36 mb-8"
+                    className="text-4xl sm:text-8xl mt-6 sm:mt-36 sm:mb-8"
                 >
                     {"<Serena Inzani />"}
                 </Typography>
