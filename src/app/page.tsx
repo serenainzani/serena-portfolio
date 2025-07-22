@@ -24,8 +24,8 @@ export default function Home() {
                 </Typography>
             </section>
             <section className="flex flex-wrap justify-center gap-4 p-4">
-                {projects.map((project) => (
-                    <ProjectCard project={project} />
+                {projects.map((project, index) => (
+                    <ProjectCard project={project} key={index} />
                 ))}
             </section>
             <section>
