@@ -34,21 +34,25 @@ export default function ProjectCard({ project }: ProjectProps) {
                 >
                     {project.name}
                 </Typography>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
+                <Typography variant="body1" sx={{ color: "text.secondary" }}>
                     {project.description}
                 </Typography>
             </CardContent>
             <CardActions
                 sx={{ marginTop: "auto", justifyContent: "space-evenly" }}
+                className="mb-3"
             >
                 <a href={project.appLink} target="_blank">
-                    <Button size="small" className="text-purple-800 text-base">
+                    <Button
+                        variant="outlined"
+                        className="text-purple-800 border-purple-800 text-lg"
+                    >
                         Check it out
                     </Button>
                 </a>
                 <a href={project.repoLink} target="_blank">
                     <IconButton color="primary" aria-label="github">
-                        <Icon>
+                        <Icon fontSize="large">
                             <img src="/github.svg" alt="github" />
                         </Icon>
                     </IconButton>
