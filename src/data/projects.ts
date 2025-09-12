@@ -10,7 +10,7 @@ const projects: Project[] = [
     {
         name: "AI Restaurant Recommender",
         description:
-            "A full-stack application that uses OpenAI to recommend restaurants based on bespoke user prompts about their preferences and location.",
+            "Using OpenAI to make unique restaurant recommendations based on bespoke user prompts.",
         repoLink:
             "https://github.com/serenainzani/restaurant-recommender-openai",
         appLink: "https://restaurant-recommender-openai.vercel.app",
@@ -19,7 +19,7 @@ const projects: Project[] = [
     {
         name: "RPG Notes App",
         description:
-            "A full-stack application for tabletop RPG players to create and manage their session notes. Players can make, edit and delete notes, as well as filter based on note category",
+            "A full-stack application for tabletop RPG players to create and manage their session notes.",
         repoLink: "https://github.com/serenainzani/rpg-notes-app",
         appLink: "https://rpg-notes-app.vercel.app/",
         logo: "/rpg.jpeg",
