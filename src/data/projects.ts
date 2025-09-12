@@ -11,8 +11,7 @@ const projects: Project[] = [
         name: "AI Restaurant Recommender",
         description:
             "Using OpenAI to make unique restaurant recommendations based on bespoke user prompts.",
-        repoLink:
-            "https://github.com/serenainzani/restaurant-recommender-openai",
+        repoLink: "https://airestaurantreccs.serena.software/",
         appLink: "https://restaurant-recommender-openai.vercel.app",
         logo: "/chef.jpeg",
     },
@@ -21,7 +20,7 @@ const projects: Project[] = [
         description:
             "A full-stack application for tabletop RPG players to create and manage their session notes.",
         repoLink: "https://github.com/serenainzani/rpg-notes-app",
-        appLink: "https://rpg-notes-app.vercel.app/",
+        appLink: "https://rpgnotes.serena.software/",
         logo: "/rpg.jpeg",
     },
 ];
