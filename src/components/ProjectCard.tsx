@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { Icon, IconButton } from "@mui/material";
 import { Project } from "@/data/projects";
+import Image from "next/image";
 
 type ProjectProps = {
     project: Project;
@@ -69,7 +70,12 @@ export default function ProjectCard({ project }: ProjectProps) {
                         className="transform transition-transform duration-200 hover:scale-110"
                     >
                         <Icon fontSize="large">
-                            <img src="/github-black.svg" alt="github" />
+                            <Image
+                                src="/github-black.svg"
+                                width={48}
+                                height={48}
+                                alt="github"
+                            />
                         </Icon>
                     </IconButton>
                 </a>
