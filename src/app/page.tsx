@@ -22,11 +22,11 @@ export default function Home() {
                 {"<Serena Inzani />"}
             </Typography>
             <p className="sm:w-1/2 flex mx-auto text-center text-base sm:text-xl px-8 sm:py-12 py-5">
-                Hi, I'm a Full Stack Web Developer with a passion for building
-                impactful, user-focused applications. I specialize in
-                TypeScript, React, and Node.js within FinTech. In my career I've
-                worked across diverse tech stacks including Java, Python, SQL,
-                and cloud-native tools like Kubernetes and GCP.
+                Hi, I&apos;m a Full Stack Web Developer with a passion for
+                building impactful, user-focused applications. I specialize in
+                TypeScript, React, and Node.js within FinTech. In my career
+                I&apos;ve worked across diverse tech stacks including Java,
+                Python, SQL, and cloud-native tools like Kubernetes and GCP.
             </p>
             <section className="flex flex-wrap justify-center gap-4 p-4">
                 {projects.map((project, index) => (
